@@ -1,0 +1,29 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec1 {
+    background-color: #FBF8F3;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+.nav1, .nav2 {
+    display: flex;
+    gap: 20px;
+}
+.sec2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+/* .hero {
+    height: 100px;
+    width: 10vw; 
+    margin-top: -20px;
+} */
+.one {
+    display: flex;
+}

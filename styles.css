@@ -1,14 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 *  {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    scroll-behavior: smooth;
+    cursor: pointer;
+    line-height: 3.6vh;
+    font-family: 'Inter', sans-serif;
+}
 .sec1 {
     background-color: #FBF8F3;
+    line-height: 3.8vh;
+    padding-bottom: 50px;
 }
 .navbar {
     display: flex;
     justify-content: space-around;
+    padding-top: 30px;
+    font-size: 2.6vh;
+    padding-bottom: 10px;
+}
+.navbar h5 {
+    font-size: 2.6vh;
 }
 .nav1, .nav2 {
     display: flex;
@@ -19,11 +35,169 @@
     justify-content: space-around;
     padding-top: 50px;
 }
-/* .hero {
-    height: 100px;
-    width: 10vw; 
-    margin-top: -20px;
-} */
 .one {
     display: flex;
+    gap: 20px;
+}
+.one {
+    padding-bottom: 10px;
+}
+.btn, .btn1{
+    padding: 15px;
+    padding-right: 22px;
+    padding-left: 22px;
+    background-color: #4D13D1;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+.btn {
+    margin-top: -10px;
+}
+.btn1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.two {
+    display: flex;
+    gap: 10px;
+    padding-top: 5px;
+}
+.two section {
+    display: flex;
+    gap: 5px;
+}
+.two p {
+    padding: 10px;
+}
+.three {
+    display: flex;
+    gap: 20px;
+}
+.three h5 {
+    padding-top: 18px;
+    color: #4D13D1;
+    text-decoration: underline;
+    font-size: 2.5vh;
+}
+h1 {
+    padding-bottom: 15px;
+    font-size: 6vh;
+    line-height: 6vh;
+}
+.sec3 {
+    padding-top: 40px;
+}
+.four {
+    padding-left: 97px;
+    padding-bottom: 40px;
+}
+.four p {
+    padding-bottom: 10px;
+    color: #4D13D1;
+    font-size: 2.8vh;
+    font-weight: bold;
+}
+.four h2 {
+    line-height: 5vh;
+    font-weight: bolder;
+}
+.five {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+.five img {
+    padding-bottom: 10px;
+}
+.five p {
+    padding-top: 15px;
+    color: #4F4F4F;
+    font-weight: 2.2vh;
+}
+b {
+    font-size: 2.5vh;
+    color: black;
+}
+.six {
+    display: flex;
+    justify-content: space-around;
+    background-color: #4D13D1;
+    color: white;
+    padding-top: 35px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 6px;
+}
+.six figcaption {
+    padding-top: 60px;
+}
+.six h2 {
+    padding-bottom: 15px;
+    font-size: 4vh;
+}
+.six button {
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #4D13D1;
+    padding: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 20px; 
+}
+button {
+    font-weight: bolder;
+    font-size: 2.6vh;
+    transition: 0.5s;
+}
+button:hover {
+    transform: scale(1.1);
+}
+.seven {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+.seven button {
+    padding: 15px;
+    padding-right: 35px;
+    padding-left: 35px;
+    background-color: transparent;
+    color: #4D13D1;
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.seven h5 {
+    color: #4D13D1;
+    font-weight: bolder;
+}
+.lad1, .lad2, .lad3 {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+.ava1, .ava2, .ava3 {
+    border: 1px solid #DADADA;
+    padding: 25px;
+    border-radius: 5px;
+}
+.eight {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FBF8F3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.eight h5 {
+    padding-bottom: 20px;
+    font-size: 3vh;
+    font-weight: bolder;
+}
+.p1 {
+    padding-top: 30px;
 }

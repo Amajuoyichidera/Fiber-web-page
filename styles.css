@@ -192,6 +192,7 @@ button:hover {
     background-color: #FBF8F3;
     padding-top: 50px;
     padding-bottom: 50px;
+    gap: 20px;
 }
 .eight h5 {
     padding-bottom: 20px;
@@ -200,4 +201,85 @@ button:hover {
 }
 .p1 {
     padding-top: 30px;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        font-size: 1.7vh;
+    }
+    .sec2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .navbar :not(:first-child) {
+        display: none;
+    }
+    .three {
+        display: flex;
+        flex-direction: column;
+    }
+    .two {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .five {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        gap: 15px;
+    }
+    .six {
+        display: flex;
+        flex-direction: column; 
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 90%;
+        margin-left: 15px; 
+    }
+    .six img {
+        height: 30vh;
+        margin-left: -10px;
+        margin-right: 10px;
+    }
+    .six button {
+        width: 50vw;
+        margin-bottom: 15px;
+    }
+    .seven {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+    .seven button {
+        margin-left: -5px;
+    }
+    .eight {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    h1 {
+        font-size: 3.2vh;
+        line-height: 4vh;
+    }
+    .btn1 {
+        padding: 10px;
+        padding-right: -20px;
+        padding-left: -20px;
+        font-size: 1.6vh;
+        width: 40vw;
+    }
+    .navbar h5 {
+        text-align: center;
+        font-size: 5vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+    }
+    .four {
+       padding-left: 20px;
+    }
+    .sec1 {
+        padding-left: 10px;
+    }
 }

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBF8F3;
+    font-family: 'Inter', sans-serif;
+    line-height: 3.6vh;
+    scroll-behavior: smooth;
+    font-size: 2vh;
+}
+.sec1 {
+    display: flex;
+}
+.sec2 {
+    background-color: white;
+    padding: 50px;
+    align-items: center;
+    border-bottom-left-radius: 5px;
+}
+h3 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.sec3 {
+    background-color: #5A1FE0;
+    color: white;
+    padding: 20px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+}
+.sec3 h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+form p {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+input {
+    padding: 10px;
+    padding-right: 70px;
+    outline: none;
+    border: 2px solid #EDEDED;
+    border-radius: 5px;
+}
+.sec4 {
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1 {
+    font-size: 3.7vh;
+}
+button {
+    background-color: #5A1FE0;
+    color: white;
+    padding: 15px;
+    padding-right: 55px;
+    padding-left: 55px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+button:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.password {
+    display: flex;
+}
+.password img {
+    margin-left: -35px;
+}
+span {
+    color: #5A1FE0;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 2vh;
+        scroll-behavior: smooth;
+    }
+    .sec1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .sec3 {
+        text-align: start;
+    }
+    .sec3 img {
+        height: 30vh;
+    }
+    button {
+        font-size: 2vh;
+    }
+}

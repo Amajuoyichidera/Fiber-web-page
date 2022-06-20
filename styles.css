@@ -30,6 +30,9 @@ body {
     display: flex;
     gap: 20px;
 }
+.in {
+    text-decoration: none;
+}
 .sec2 {
     display: flex;
     justify-content: space-around;
@@ -202,7 +205,6 @@ button:hover {
 .p1 {
     padding-top: 30px;
 }
-
 @media screen and (max-width:600px) {
     body {
         font-size: 1.7vh;
@@ -211,8 +213,21 @@ button:hover {
         display: flex;
         flex-direction: column-reverse;
     }
-    .navbar :not(:first-child) {
+    .nav1 {
         display: none;
+    }
+    .navbar h5 {
+        font-size: 2vh;
+        margin-left: 10px;
+    }
+    .btn {
+        padding-right: 15px;
+        padding-left: 15px;
+        font-size: 1.5vh;
+    }
+    .nav2 {
+        display: flex;
+        justify-content: flex-end;
     }
     .three {
         display: flex;
@@ -269,12 +284,6 @@ button:hover {
         padding-left: -20px;
         font-size: 1.6vh;
         width: 40vw;
-    }
-    .navbar h5 {
-        text-align: center;
-        font-size: 5vh;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bolder;
     }
     .four {
        padding-left: 20px;
